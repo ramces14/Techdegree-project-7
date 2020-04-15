@@ -53,9 +53,6 @@ a:link{
     border-radius: 4px;
     color: #9DBFAF;
     margin: auto 0;
-    background-image: url('icon-search.png');
-    background-repeat: no-repeat;
-    background-position: 10px 10px;
 }
   
 .searchTerm:focus{
@@ -77,6 +74,7 @@ a:link{
 
 .alert-banner-close{
     margin: 15px 10px;
+    cursor: pointer;
 }
 
 .header-searchbar{
@@ -142,6 +140,11 @@ a:link{
     max-width: 100%;
     max-height: auto;
     display: block;
+}
+
+.facebook-svg{
+    width: 40px;
+    height: 40px;
 }
 
 .social-img{

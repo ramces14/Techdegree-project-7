@@ -69,11 +69,15 @@
     /*-------------------
     ---- Navigation -----
     -------------------*/
+    .nav{
+        display: flex;
+        flex-direction: column;
+    } 
 
-    #dashboard-img{
+    .icon-img{
         width: 26px;  
         height: 26px;
-        margin-top: 15px;  
+        margin: 10px 5px;  
     }
 
 
