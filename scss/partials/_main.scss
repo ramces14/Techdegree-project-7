@@ -1,0 +1,396 @@
+/*------------------
+------- Main -------
+-------------------*/
+
+.main > *{
+    background-color: rgba(255, 254, 254, 0.541);
+    border-right: rgba(209, 208, 208, 0.726) solid 1px;
+}
+
+section{
+    border-bottom: rgba(209, 208, 208, 0.726) solid 1px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+.title{
+    margin: 15px auto;
+}
+
+p{
+    font-size: 14px;
+}
+
+a{
+    font-size: 11px;
+    text-decoration: none;
+}
+
+a:link{
+    color: rgba(64, 42, 160, 0.658);
+}
+/*------------------------
+------- searchbar -------
+------------------------*/
+
+#headline{
+    font-size: 18px;
+}
+
+.search-div{
+    padding: 10px 0;
+    background-color: rgba(223, 213, 213, 0.288);
+    border: rgba(223, 213, 213, 0.753) solid 1px;
+} 
+
+.searchTerm {
+    width: 200px;
+    border:  rgba(223, 213, 213, 0.856) solid 1px;
+    padding: 5px;
+    height: 20px;
+    border-radius: 4px;
+    color: #9DBFAF;
+    margin: auto 0;
+    background-image: url('icon-search.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+  
+.searchTerm:focus{
+    color: #00B4CC;
+}
+
+.alert-banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    background-color: rgba(49, 37, 105, 0.849);
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+.alert-p{
+    margin: auto 10px;
+}
+
+.alert-banner-close{
+    margin: 15px 10px;
+}
+
+.header-searchbar{
+    border-bottom: none;
+}
+
+/*------------------------
+-------- Traffic ---------
+------------------------*/
+#traffic-title{
+    font-size: 14px;
+}
+
+.traffic-nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    justify-content: center;
+}
+
+.traffic-nav-link{
+    margin: auto 5px;
+    font-size: 16px;
+    font-size: 14px;
+}
+
+.traffic-chart-container{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.traffic{
+    border-bottom: rgba(209, 208, 208, 0.726) solid 1px;
+}
+
+/*-----------------------------
+-------- Daily Traffic --------
+-----------------------------*/
+
+.daily-traffic-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/*------------------------
+-------- Mobile ----------
+------------------------*/
+
+.mobile-users-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/*------------------------
+-------- Social ----------
+------------------------*/
+
+.social-media{
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+}
+
+.social-img{
+    width: 55px;
+    margin: auto 15px;
+    background-color:rgba(64, 42, 160, 0.658);
+    border-radius: 100%;
+    padding: 13px;
+}
+
+.social-container{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 80px;
+    background-color: rgb(245, 245, 245);
+    margin: 15px auto;
+    border-radius: 2%;
+    border:  rgb(179, 179, 179) solid .5px;
+}
+
+.social-title{
+    font-size: 12px;
+    text-align: left;
+    margin: 0 0;
+}
+    
+.social-number{
+    font-size: 36px;
+    margin: 0 0;
+}
+
+.twitter-text{
+    margin: auto 0;
+    margin-right: auto;
+}
+
+.facebook-text{
+    margin: auto 0;
+    margin-right: auto;
+}
+.google-text{
+    margin: auto 0;
+    margin-right: auto;
+}
+
+/*-----------------------------
+-------- New Members ----------
+-----------------------------*/
+
+.members-container{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin: 10px 20px;
+    justify-content: center;
+}
+
+.border{
+    border-bottom: rgb(212, 212, 212) solid 1px;
+}
+
+.profile-image{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin: auto 15px;
+}
+
+.name{
+    margin: 0;
+    text-align: left;
+}
+
+.members-text{
+    margin: auto 0;
+}
+
+.date{
+    margin: auto 0;
+    margin-left: 30px;
+}
+
+/*---------------------------------
+-------- Recent Avtivity ----------
+---------------------------------*/
+
+.sentence{
+    margin: 0;
+}
+
+.number{
+    margin: 0;
+    text-align: left;
+}
+
+/*------------------------------
+-------- Message User ----------
+------------------------------*/
+
+.widget-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.space{
+    margin: 10px 0;
+    border:  rgba(223, 213, 213, 0.856) solid 1px;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#userField{
+    padding: 10px;
+}
+
+#messageField{
+    height: 100px;
+}
+
+.back{
+    background-color: rgb(240, 240, 240);
+}
+
+#send{
+    background-color: rgba(64, 42, 160, 0.658);
+    color: whitesmoke;
+    height: 35px;
+    margin-bottom: 60px;
+}
+
+/*------------------------
+------- Settings ---------
+------------------------*/
+.toggle-container{
+    display: flex;
+    text-align: left;
+    margin: 11px 0;
+}
+
+.settings-p{
+    margin: auto 0;
+    margin-left: 20px;
+}
+
+#top{
+    margin-right: 22px;
+}
+
+#bottom{
+    margin-right: 48px;
+}
+
+.switch {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 10.5px 0;
+    width: 66px;
+    height: 22px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider:before {
+    transform: translateX(43px);
+}
+
+input:checked + .slider {
+    background-color: rgba(64, 42, 160, 0.658);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px rgba(64, 42, 160, 0.658);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.settings-button{
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+    margin-bottom: 60px;
+}
+
+.set-button{
+    border:  rgba(223, 213, 213, 0.856) solid 1px;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    flex-grow: 1;
+}
+
+#save{
+    margin-right: 10px;
+    background-color: rgba(64, 42, 160, 0.658);
+    color: whitesmoke;
+    height: 35px;
+}
+
+#cancel{
+    margin-left: 10px;
+    background-color: rgba(133, 133, 133, 0.705);
+    color: whitesmoke;
+    height: 35px;
+}
+
+#timezone{
+    margin-top: 20px;
+    padding: 10px;
+}

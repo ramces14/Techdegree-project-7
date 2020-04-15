@@ -1,0 +1,63 @@
+/* ------------------
+------ Header -------
+-------------------*/
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.app-title{
+    color: rgb(255, 253, 253);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+}
+
+.line{
+    margin-left: 18px;
+}
+
+.profile-container{
+    margin: auto 0;
+    padding-left: 18px;
+    border-left: rgba(0, 0, 0, 0.164) solid 1px;
+}
+
+#name{
+    color: rgb(255, 253, 253);
+    margin: auto 0;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#profile-image{
+    border-radius: 100%;
+    width: 28px;
+    height: 28px;
+}
+
+.bell-notification{
+    margin-top: 16px;
+    margin-left: auto;
+}
+
+.bell-svg{
+    width: 20px;
+    height: 20px;
+}
+
+.bell-icon{
+    transition: transform .4s ease-out;
+    transform-origin: 50% 50%;
+}
+
+.bell-svg:hover .bell-icon{
+    transform: rotate(45deg);
+}
+
+

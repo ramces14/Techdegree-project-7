@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/dashboard.min.css">
+</head>
+
+<body>
+
+    <div class="grid">
+
+        <!-- first row -->
+        <section class="header">
+
+            <p class="app-title"><strong>Your</strong>App</p>
+
+                <div class="bell-notification">
+
+                    <svg class="bell-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <g class="bell">
+                            <path class="bell-icon" d="M24 18v-8c0-5.5-4.5-10-10-10S4 4.5 4 10v8l-4 8h9.1c.5 2.3 2.5 4 4.9 4s4.4-1.7 4.9-4H28l-4-8zM14 28c-1.3 0-2.4-.8-2.8-2h5.6c-.4 1.2-1.5 2-2.8 2zM3 24l3-6v-8c0-4.4 3.6-8 8-8s8 3.6 8 8v8l3 6H3z" fill="#fff"/>
+                        </g>
+                    </svg>
+
+                    <div class="notification">
+
+                    </div>
+                </div>
+
+                <div class="line">
+                    <div class="profile-container">
+                        <img id="profile-image" src="images/member-2.jpg" alt="profile-image">
+                    </div>
+                    <h3 id="name">Josh Sullivan</h3>
+                </div>
+
+        </section>
+
+        <!-- side navigation -->
+        <section class="nav">
+            <a href="#">
+                <img id="dashboard-img" src="icons/icon-dashboard.svg" alt="dashboard">
+            </a>
+        </section>
+
+        <div class="main">
+
+            <!-- second row -->
+            <section class="header-searchbar">
+
+                <div class="main-header"> 
+                    <h2 id="headline">Dashboard</h2>
+                    <div class="search-div">
+                        <input type="text" class="searchTerm" placeholder="search..."/>
+                    </div>
+                </div>
+
+                <!-- alert banner -->
+                <div class="alert" id="alert">
+                </div>
+
+            </section>
+
+            <!-- third row -->
+            <section class="traffic">
+                <div class="traffic-div">
+                    <h3 id="traffic-title">Traffic</h3>
+                    <ul class="traffic-nav">
+                        <li class="traffic-nav-link">Hourly</li>
+                        <li class="traffic-nav-link">Daily</li>
+                        <li class="traffic-nav-link active">Weekly</li>
+                        <li class="traffic-nav-link">Monthly</li>
+                    </ul>
+                </div>
+                <div class="traffic-chart-container">
+                    <canvas id="traffic-chart" width="300" height="100"></canvas>
+                </div>
+            </section>
+
+            <!-- fourth row -->
+            <section class="daily">
+                <h3 class="title">Daily Traffic</h3>
+                <div class="daily-traffic-container">
+                    <canvas id="daily-chart" width="250" height="125"></canvas>
+                </div>
+            </section>
+
+            <section class="mobile">
+                <h3 class="title">Mobile users</h3>
+                <div class="mobile-users-container">
+                    <canvas id="mobile-chart" width="250" height="125"></canvas>
+                </div>
+            </section>
+
+            <!-- fifth row -->
+            <section class="social">
+                <h3 class="title">Social Stats</h3>
+
+            <div class="social-div">
+
+                <div class="social-container">
+                    <div class="social-img">
+                        <img class="social-media" src="icons/icon-twitter.svg" alt="Twitter">
+                    </div>
+                    <div class="twitter-text">
+                        <p class="social-title">Twitter</p>
+                        <p class="social-number">10,345</p>
+                    </div>
+                </div>
+
+                <div class="social-container">
+                    <div class="social-img">
+                        <img class="social-media" src="icons/icon-facebook.svg" alt="Facebook">
+                    </div>
+                    <div class="facebook-text">
+                        <p class="social-title">Facebook</p>
+                        <p class="social-number">8,739</p>
+                    </div>
+                </div>
+
+                <div class="social-container">
+                    <div class="social-img">
+                        <img class="social-media" src="icons/icon-google-plus.svg" alt="Google">
+                    </div>
+                    <div class="google-text">
+                        <p class="social-title">Google+</p>
+                        <p class="social-number">2,530</p>
+                    </div>
+                </div>
+            
+            </div>
+                
+            </section>
+            
+            <!-- sixth row -->
+            <!-- New Members -->
+            <section class="members">
+                <h3 class="title">New Members</h3>
+
+                <div class="members-container border">
+                    <img src="images/member-1.jpg" class="profile-image">
+                    <div class="members-text">
+                        <p class="name">Victoria Chambers</p>
+                        <a href="#">victoria.chambers80@example.com</a>
+                    </div>
+                    <p class="date">10/15/15</p>
+                </div>
+
+                <div class="members-container border">
+                    <img src="images/member-2.jpg" class="profile-image">
+                    <div class="members-text">
+                        <p class="name">Dale Byrd</p>
+                        <a href="#">victoria.chambers80@example.com</a>
+                    </div>
+                    <p class="date">10/15/15</p>
+                </div>
+
+                <div class="members-container border">
+                    <img src="images/member-3.jpg" class="profile-image">
+                    <div class="members-text">
+                        <p class="name">Dawn Wood</p>
+                        <a href="#">victoria.chambers80@example.com</a>
+                    </div>
+                    <p class="date">10/15/15</p>
+                </div>
+
+                <div class="members-container">
+                    <img src="images/member-4.jpg" class="profile-image">
+                    <div class="members-text">
+                        <p class="name">Dan Oliver</p>
+                        <a href="#">victoria.chambers80@example.com</a>
+                    </div>
+                    <p class="date">10/15/15</p>
+                </div>
+            </section>
+
+            <!-- Recent Activity -->
+            <section class="activity">
+                <h3 class="title">Recent Activity</h3>
+
+                <div class="members-container border">
+                    <img src="images/member-1.jpg" class="profile-image">
+                    <div class="members-text">
+                        <p class="sentence">Victoria Chambers commented on YourApp's SEO Tips</p>
+                        <p class="number">4 hours</p>
+                    </div>
+                    <a href="#" class="date">></a>
+                </div>
+
+                <div class="members-container border">
+                    <img src="images/member-2.jpg" class="profile-image">
+                    <div class="members-text">
+                        <p class="sentence">Victoria Chambers commented on YourApp's SEO Tips</p>
+                        <p class="number">4 hours</p>
+                    </div>
+                    <a href="#" class="date">></a>
+                </div>
+
+                <div class="members-container border">
+                    <img src="images/member-3.jpg" class="profile-image">
+                    <div class="members-text">
+                        <p class="sentence">Victoria Chambers commented on YourApp's SEO Tips</p>
+                        <p class="number">4 hours</p>
+                    </div>
+                    <a href="#" class="date">></a>
+                </div>
+
+                <div class="members-container">
+                    <img src="images/member-4.jpg" class="profile-image">
+                    <div class="members-text">
+                        <p class="sentence">Victoria Chambers commented on YourApp's SEO Tips</p>
+                        <p class="number">4 hours</p>
+                    </div>
+                    <a href="#" class="date">></a>
+                </div>
+            </section>
+
+            <!-- seventh row -->
+            <!-- message user -->
+            <section class="message">
+                <h3 class="title">Message User</h3>
+                <form class="widget-container">
+                    <input type="text" placeholder="Search for user" class="space back" id="userField">
+                    <textarea placeholder="Message for user" class="space back" id="messageField"></textarea>
+                    <button class="space" id="send">Send</button>
+                </form>
+            </section>
+
+            <!-- settings -->
+            <section class="settings">
+                <h3 class="title">Settings</h3>
+
+                <div class="toggle-container">
+                    <p class="settings-p" id="top">Send Email Notification</p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+
+                <div class="toggle-container">
+                    <p class="settings-p" id="bottom">Set Profile to Public</p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                
+                <div class="form-field">
+                    <select class="space back" id="timezone">
+                        <option disabled selected>Select a Timezone</option>
+                        <option>Eastern</option>
+                        <option>Central</option>
+                        <option>Mountain</option>
+                        <option>Pacific</option>
+                        <!-- more options -->
+                    </select>
+                </div>
+                <div class="settings-button" >
+                    <button class="set-button" id="save">Save</button>
+                    <button class="set-button" id="cancel">Cancel</button>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+
+    <script src="js/Chart.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,201 @@
+/*------------------------
+---- Mobile Size App -----
+------------------------*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main";
+}
+    
+.header{
+    display: flex;
+    background-color: rgba(64, 42, 160, 0.658);
+    grid-area: header;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.main{
+    grid-area: main;
+    display: grid;
+}
+
+
+@media (min-width: 465px){
+    .date{
+        margin: auto 0;
+        margin-left: auto;
+    }
+}
+
+
+
+/*------------------------
+---- Tablet Size App -----
+------------------------*/
+
+@media (min-width: 768px){
+
+    /*-------------------
+    ------ Header -------
+    -------------------*/
+
+    h1{
+        font-size: 21px;
+    }
+
+    .bell-notification{
+        width: 1.5em;
+        margin-top: 20px;
+    }
+
+    #profile-image{
+        width: 30px;
+        height: 30px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    
+
+    /*-------------------
+    ---- Navigation -----
+    -------------------*/
+
+    #dashboard-img{
+        width: 26px;  
+        height: 26px;
+        margin-top: 15px;  
+    }
+
+
+    /*------------------------
+    ---- header-searchbar ----
+    ------------------------*/
+
+    .main-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #headline{
+        font-size: 22px;
+        color: rgb(110, 106, 106);
+        margin: 20px 0 0 20px;
+        padding-right: 20px;
+    }
+
+    .search-div{
+        padding: 9px 0px 15px 0px;
+        background-color: rgba(223, 213, 213, 0.288);
+        border: rgba(223, 213, 213, 0.753) solid 1px;
+        flex-grow: 1;
+    }
+
+    .searchTerm {
+        width: 350px;
+        float: right;
+        margin-right: 20px;
+        border:  rgba(223, 213, 213, 0.856) solid 1px;
+        padding: 5px;
+        height: 34px;
+        border-radius: 3px;
+        color: #9DBFAF;
+    }
+      
+    .searchTerm:focus{
+        color: #00B4CC;
+    }
+
+    .searchButton {
+        width: 30px;
+        height: 34px;
+        border: 1px solid #00B4CC;
+        background: #00B4CC;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .alert-banner{
+        margin: 20px 20px;
+    }
+
+    /*------------------------
+    -------- Traffic --------
+    ------------------------*/
+
+    .traffic-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    #traffic-title{
+        margin-left: 20px;
+    }
+
+    .traffic-nav-link{
+        margin: auto 20px;
+    }
+
+    /*---------------------
+    ------- Social --------
+    ---------------------*/
+
+    .social-div{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .title{
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .social-container{
+        margin: 0 20px;
+        margin-bottom: 20px;
+        flex-grow: 1;
+    }
+
+    /*-------------------
+    ------- Grid --------
+    -------------------*/
+
+    .grid{
+    grid-template-columns: 56px 1fr;
+    grid-template-areas:
+    "header header"
+    "nav main";
+    }
+
+    .main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header-searchbar, .traffic, .social{
+        grid-column: 1 / span 2;
+    }
+
+}
+
+/* Desktop App */
+@media (min-width: 1024px) {
+    .grid{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}

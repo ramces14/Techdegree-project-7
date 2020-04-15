@@ -1,0 +1,21 @@
+// Partial imports
+
+@import 'partials/_header.scss',
+        'partials/_navigation.scss',
+        'partials/_main.scss',
+        'partials/_media-queries.scss';
+        
+/* ----------------------
+------ Base Styles -------
+------------------------*/
+/* base styles */
+* {
+	box-sizing: border-box;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+
